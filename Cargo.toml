@@ -1,0 +1,8 @@
+[package]
+name = "rust-component-checker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rustup-available-packages = { git = "https://github.com/rust-lang/rustup-components-history.git" }
+chrono = "*"
